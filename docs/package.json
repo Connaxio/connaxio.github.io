@@ -1,0 +1,19 @@
+{
+  "name": "Connaxio",
+  "version": "0.0.1",
+  "description": "An open source electronics manufacturer",
+  "main": "index.js",
+  "authors": {
+    "name": "Marc-Antoine Lalonde",
+    "email": "hello@connaxio.com"
+  },
+  "repository": "https://github.com/Connaxio/documentation/Connaxio",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
