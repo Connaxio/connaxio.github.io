@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "ESP32 single core",
+      "name": "esp32",
       "maintainer": "Connaxio inc.",
       "websiteURL": "https://github.com/Connaxio/arduino-esp32",
       "email": "hello@connaxio.com",
