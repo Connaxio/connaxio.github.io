@@ -1,7 +1,7 @@
 # Espoir
 <center>
 
-![Espoir_iso](./espoir-angle-01.jpg)
+![Espoir_iso](./images/hardware/espoir-angle-01.jpg)
 
 </center>
 
@@ -56,7 +56,7 @@ Espoir's mikroBUS<sup>TM</sup> socket provides incredible ease of use, with over
 ## Top and bottom views
 <center>
 
-![Espoir_top_bottom](./espoir-front-back-01.jpg)
+![Espoir_top_bottom](./images/hardware/espoir-front-back-01.jpg)
 
 </center>
 
@@ -64,7 +64,7 @@ Espoir's mikroBUS<sup>TM</sup> socket provides incredible ease of use, with over
 ## Pinout
 <center>
 
-![Espoir_pinout](./espoir_pinout.jpg)
+![Espoir_pinout](./images/hardware/espoir_pinout.jpg)
 
 </center>
 
@@ -74,7 +74,7 @@ The main dimensions of Espoir are presented here. Complete 3D models can be foun
 
 <center>
 
-![Espoir_dimensions](./espoir_dimensions.jpg)
+![Espoir_dimensions](./images/hardware/espoir_dimensions.jpg)
 
 </center>
 

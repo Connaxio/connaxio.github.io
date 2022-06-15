@@ -78,20 +78,20 @@ module.exports = {
         sidebar: [
           {
             title: 'Espoir',   // required
-            path: '/espoir/hardware/',      // optional, link of the title, which should be an absolute path and must exist
+            path: '/espoir/hardware',      // optional, link of the title, which should be an absolute path and must exist
             collapsable: true, // optional, defaults to true
             sidebarDepth: 1,    // optional, defaults to 1
             initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
             children: [
               {
                 title: 'Hardware',
-                path: '/espoir/hardware/'
+                path: '/espoir/hardware'
               },
               '/espoir/arduino/',
-              '/espoir/micropython/',
-              '/espoir/platformio/',
-              '/espoir/esphome/',
-              '/espoir/tasmota/'
+              '/espoir/micropython',
+              '/espoir/platformio',
+              '/espoir/esphome',
+              '/espoir/tasmota'
             ]
           },
           {
