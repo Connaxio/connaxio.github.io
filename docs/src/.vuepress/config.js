@@ -87,7 +87,7 @@ module.exports = {
                 title: 'Hardware',
                 path: '/espoir/hardware'
               },
-              '/espoir/arduino/',
+              '/espoir/arduino',
               '/espoir/micropython',
               '/espoir/platformio',
               '/espoir/esphome',
