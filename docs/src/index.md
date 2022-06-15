@@ -1,7 +1,15 @@
-# Connaxio's documentation
+<center>
 
-Here you will find Connaxio's most up-to-date documentation.
+![Connaxio_logo](./connaxio_logo_black_2294x300.png)
 
-While the website is in construction, you will find useful links to learn about the company and its projects in the navigation bar.
+</center>
 
-You may also learn more about Espoir, Connaxio's first product, in its [datasheet](https://raw.githubusercontent.com/Connaxio/espoir/master/doc/Datasheet_Espoir.pdf).
+# Connaxio's official Wiki
+
+This Wiki contains Connaxio's most up-to-date documentation and tutorials.
+
+Some content is still missing and will be added soon<sup>TM</sup>.
+
+Have a look a [Espoir's hardware page](/espoir/hardware/) for all the details on Connaxio's first commercially available product!
+
+
