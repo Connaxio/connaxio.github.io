@@ -16,7 +16,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'theme-color', content: '#008040' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
@@ -71,8 +71,8 @@ module.exports = {
         // algolia docsearch options for current locale
         algolia: {},
         nav: [
+          { text: 'Buy', link: 'https://www.crowdsupply.com/connaxio/espoir' },
           { text: 'Source', link: 'https://github.com/Connaxio' },
-          { text: 'Purchase', link: 'https://www.crowdsupply.com/connaxio/espoir' },
           { text: 'Main site', link: 'https://www.connaxio.com' }
         ],
         sidebar: [
@@ -115,8 +115,8 @@ module.exports = {
           }
         },
         nav: [
-          { text: 'Source', link: 'https://github.com/Connaxio' },
           { text: 'Acheter', link: 'https://www.crowdsupply.com/connaxio/espoir' },
+          { text: 'Source', link: 'https://github.com/Connaxio' },
           { text: 'Siter principal', link: 'https://www.connaxio.com' }
         ],
         sidebar: [
@@ -159,5 +159,6 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    '@vuepress/active-header-links',
   ]
 }
