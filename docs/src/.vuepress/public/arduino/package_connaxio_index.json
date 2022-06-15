@@ -2,7 +2,7 @@
   "packages": [
     {
       "name": "ESP32 single core",
-      "maintainer": "Conaxio inc.",
+      "maintainer": "Connaxio inc.",
       "websiteURL": "https://github.com/Connaxio/arduino-esp32",
       "email": "hello@connaxio.com",
       "help": {
@@ -14,12 +14,12 @@
           "architecture": "esp32",
           "version": "2.0.4-alpha2",
           "category": "ESP32",
-          "url": "https://github.com/Connaxio/arduino-esp32/releases/download/2.0.4-alpha2/esp32-2.0.4-alpha2.zip",
-          "archiveFileName": "esp32-2.0.4-alpha2.zip",
-          "checksum": "",
-          "size": "",
+          "url": "https://github.com/Connaxio/arduino-esp32/archive/refs/tags/2.0.4-alpha2.zip",
+          "archiveFileName": "arduino-esp32-2.0.4-alpha2.zip",
+          "checksum": "SHA-256:9104112f9b95a919d76513df998089785f06debc1e795100753f01e79f01128d",
+          "size": "261519645",
           "help": {
-            "online": ""
+            "online": "https://docs.connaxio.com"
           },
           "boards": [
             {
