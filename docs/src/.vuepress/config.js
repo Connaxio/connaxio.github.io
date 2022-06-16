@@ -46,8 +46,10 @@ module.exports = {
    */
   themeConfig: {
     repo: '',
-    editLinks: false,
-    docsDir: '',
+    editLinks: true,
+    docsRepo: 'Connaxio/documentation',
+    docsDir: 'docs/src',
+    docsBranch: 'master',
     editLinkText: '',
     lastUpdated: true,
     logo: '/images/connaxio_icon_black_512x512.png',
