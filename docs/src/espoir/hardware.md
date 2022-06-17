@@ -67,8 +67,48 @@ Espoir's mikroBUS<sup>TM</sup> socket provides incredible ease of use, with over
 <center>
 
 ![Espoir_pinout](./images/hardware/espoir_pinout.jpg)
+**Figure: Espoir's headers' pins**
+
+**Table: Espoir's headers' pins mapping**
+| Espoir's ESP32-MINI-1 | mikroBUS<sup>TM</sup> socket  | Arduino               |
+|:----------------------|:------------------------------|:----------------------|
+| IO2                   | PWM                           | A2 / T2 / PWM         |
+| IO4                   | INT                           | A10 / T0 / INT        |
+| IO5                   | RST                           | RST                   |
+| IO9                   | RX                            | RX1                   |
+| IO10                  | TX                            | TX1                   |
+| IO12                  | MISO / SDI                    | A15 / T5 / MISO / SDI |
+| IO13                  | MOSI / SDO                    | A14 / T4 / MOSI / SDO |
+| IO14                  | SCK                           | A16 / T6 / SCK        |
+| IO15                  | CS                            | A13 / T3 / CS / SS    |
+| IO18                  | SCL                           | SCL                   |
+| IO23                  | SDA                           | SDA                   |
+| I34                   | -                             | A6                    |
+| I36                   | AN                            | A0 / AN               |
+| I37                   | -                             | A1                    |
+| I38                   | -                             | A2                    |
+| I39                   | -                             | A3                    |
+
+**Table: Espoir's "internal" pins mapping**
+| Espoir's ESP32-MINI-1 | Signal        |
+|:----------------------|:--------------|
+| IO1                   | USB UART TX   |
+| IO3                   | USB UART RX   |
+| IO0                   | EMAC TX CLK   |
+| IO19                  | EMAC TXD0     |
+| IO21                  | EMAC TXD1     |
+| IO22                  | EMAC TX EN    |
+| IO25                  | EMAC RXD0     |
+| IO26                  | EMAC RXD1     |
+| IO27                  | EMAC RX DV    |
+| IO32                  | EMAC MDC      |
+| IO33                  | EMAC MDIO     |
+| I35                   | ETH PHY PME N |
+
 
 </center>
+
+
 
 
 ## Dimensions

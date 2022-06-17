@@ -23,7 +23,7 @@ The IO One mikroShield is a mikroBUS<sup>TM</sup> add-on board that provides nin
 
 ![IO_One_mikroShield_iso](./espoir-assembly-01.jpg)
 
-*The IO One mikroShield assembled on [Espoir](https://docs.connaxio.com/espoir/hardware.html)*
+**Figure: The IO One mikroShield assembled on [Espoir](https://docs.connaxio.com/espoir/hardware.html)**
 
 </center>
 
@@ -55,7 +55,7 @@ The IO One mikroShield is a mikroBUS<sup>TM</sup> add-on board that provides nin
   - Voltage pins 3.3 V or 5 V selection via jumper
   - Works with most I<sup>2</sup>C devices, not just Pmod<sup>TM</sup> Compatible modules
 
-## Pinout, Dimensions, and Top & Bottom Views
+## Dimensions, and Top & Bottom Views
 
 <center>
 
@@ -71,10 +71,37 @@ The IO One mikroShield is a mikroBUS<sup>TM</sup> add-on board that provides nin
 
 - For the SVG connectors, the mikroBUS<sup>TM</sup> numbers correspond to the SVG conenctor number. For example, `A3` corresponds to `J3`, and `D9` corresponds to `J9`.
 
+## Pinout
+
+<center>
+
+**Table 1: Pinout**
+
+| IO One mikroShield        | mikroBUS<sup>TM</sup> add-on  | mikroBUS<sup>TM</sup> socket  | [Espoir](https://docs.connaxio.com/espoir/hardware.html)'s ESP32-MINI-1 |
+|:--------------------------|:------------------------------|:------------------------------|:------|
+| I5                        | AN                            | AN                            | I36   |
+| Pmod<sup>TM</sup> RST / 2 | RST                           | RST                           | IO5   |
+| IO7                       | CS                            | CS                            | IO15  |
+| IO8                       | SCK                           | MOSI / SDO                    | IO14  |
+| ENI                       | SDO                           | MISO / SDI                    | IO12  |
+| ENIO                      | SDI                           | SCK                           | IO13  |
+| IO9                       | PWM                           | PWM                           | IO2   |
+| Pmod<sup>TM</sup> INT / 1 | INT                           | INT                           | IO4   |
+| TX                        | TX                            | RX                            | IO9   |
+| RX                        | RX                            | TX                            | IO10  |
+| Pmod<sup>TM</sup> SCL / 3 | SCL                           | SCL                           | IO18  |
+| Pmod<sup>TM</sup> SDA / 4 | SDA                           | SDA                           | IO23  |
+| I4                        | -                             | -                             | I37   |
+| I3                        | -                             | -                             | I38   |
+
+
+
+</center>
+
 ## Removing the `Inputs`' RC Low-Pass Filter
 There are two options to remove the RC filters on the input-only signals.
 - Unsolder the corresponding capacitor (**preferred method**)
-- **> Do at your own risks <** Cut the desired <span style="color:red">**red**</span> traces as shown below. Cut **across** the trace in red and be careful not to damage the traces around it (yellow). In case of doubt, use a multimeter to verify the contact between the two ends of the trace or between the trace and the surrounding ground plane.
+- **> Do at your own risks <** Cut the desired <span style="color:red">**red**</span> traces as shown below. Cut **across** the trace in red and be careful not to damage the traces around it (yellow). In case of doubt, use a multimeter to check if there is contact between the two ends of the trace or between the trace and the surrounding ground plane.
 
 <center>
 
@@ -88,4 +115,6 @@ There are two options to remove the RC filters on the input-only signals.
 ## Additional Resources
 - [IO One mikroShield's source on GitHub](https://github.com/Connaxio/io-one-mikroshield)
 - [IO One mikroShield's OSHWA certification](https://certification.oshwa.org/ca000010.html)
+- [Pmod<sup>TM</sup> reference and modules](https://digilent.com/reference/pmod/start)
+- [Digilent Pmod<sup>TM</sup> Interface Specification](https://digilent.com/reference/_media/reference/pmod/pmod-interface-specification-1_3_1.pdf)
   
