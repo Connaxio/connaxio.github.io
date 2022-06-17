@@ -1,9 +1,11 @@
-# Espoir
+
 <center>
 
 ![Espoir_iso](./images/hardware/espoir-angle-01.jpg)
 
 </center>
+
+# Espoir
 
 ## Overview
 Espoir is a Power over Ethernet+ (PoE+ 802.3af/at) mikroBUS<sup>TM</sup> mainboard based on the ESP32-MINI-1 microcontroller. 
@@ -24,7 +26,7 @@ Espoir's mikroBUS<sup>TM</sup> socket provides incredible ease of use, with over
 
 </center>
 
-## Features and specifications
+## Features & Specifications
 
 - ESP32-MINI-1 Processor
     - Single or dual core 240 MHz
@@ -53,7 +55,7 @@ Espoir's mikroBUS<sup>TM</sup> socket provides incredible ease of use, with over
     - Mounting holes: 4x M2.5 / 4-40. The bottom-left hole is plated and connected to local ground.
 - Operating temperature range: -40 <sup>o</sup>C to +85 <sup>o</sup>C
 
-## Top and bottom views
+## Top & Bottom Views
 <center>
 
 ![Espoir_top_bottom](./images/hardware/espoir-front-back-01.jpg)
@@ -84,14 +86,14 @@ The connector shields and the bottom-left mounting hole are connected to the loc
 
 Care must be taken to leave enough spacing under the PCB to avoid accidental contact of the through-hole pins with the case. A 1 mm gap should be observed between the pins and and any conductive material to maintain proper isolation. 3 mm between the bottom of the PCB and the mounting surface is typically a good starting point.
 
-## Safety considerations
-### Electrocution hazard
+## Safety Considerations
+### Electrocution Hazard
 The area around the main transformer and Ethernet jack contains parts that operate at a typical voltage of 57 V, with peak voltages of up to 150 V. In some situations, these voltages may cause injury or death. Avoid contact with the SMD components (top) or solder joints (bottom) during operation.
 
-### Burn hazard
+### Burn Hazard
 Under constant heavy load, the area and parts around the main transformer may reach over 100 <sup>o</sup>C and cause severe burns. Avoid contact with both the top and bottom of the PCB in that region when high load conditions are expected.
 
-### Safe handling
+### Safe Handling
 An IP20 enclosure with proper ventilation is recommended to avoid accicental contact and overheating. Espoir's repository offers a 3D printable snap-on backplate that provides protection from accidental contact and good ventilation.
 
 ## Certifications
@@ -102,15 +104,12 @@ An IP20 enclosure with proper ventilation is recommended to avoid accicental con
 
 </center>
 
-## Additional resources
-- [Espoir's page on Connaxio's website](https://www.connaxio.com/electronics/espoir/)
+## Additional Resources
 - [Espoir's source on GitHub](https://github.com/Connaxio/espoir)
 - [Espoir's launch page at Crowd Supply](https://www.crowdsupply.com/connaxio/espoir)
 - [Espoir's OSHWA certification page](https://certification.oshwa.org/ca000009.html)
 - [Datasheet: ESP32-MINI-1](https://www.espressif.com/sites/default/files/documentation/esp32-mini-1_datasheet_en.pdf)
 - [Datasheet: ESP32-U4WDH](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
-- [Connaxio's Twitter handle](https://twitter.com/connaxio)
-- [Connaxio's page on LinkedIn](https://www.linkedin.com/company/connaxio/)
 
 
 

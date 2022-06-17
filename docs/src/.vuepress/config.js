@@ -75,7 +75,7 @@ module.exports = {
         nav: [
           { text: 'Buy', link: 'https://www.crowdsupply.com/connaxio/espoir' },
           { text: 'Source', link: 'https://github.com/Connaxio' },
-          { text: 'Main site', link: 'https://www.connaxio.com' }
+          { text: 'Main Website', link: 'https://www.connaxio.com' }
         ],
         sidebar: [
           {
@@ -91,7 +91,6 @@ module.exports = {
               },
               '/espoir/arduino',
               '/espoir/micropython',
-              '/espoir/platformio',
               '/espoir/esphome',
               '/espoir/tasmota'
             ]

@@ -1,7 +1,7 @@
 # Arduino
 Arduino is a popular embedded development framework and is great for learning and for simple applications. A special setup may be required to program Espoir with Arduino, because the `ESP-MINI-1` may be single or dual core. Newer versions will eventually all be dual core.
 
-There are a few ways to use the Arduino framework with Espoir. The instructions provided will work for both single core and dual core processors.
+There are a few ways to use the Arduino framework with Espoir. The instructions provided below are specialized for the single core version, but they will work for both single core and dual core processors.
 
 ## Arduino IDE
 
