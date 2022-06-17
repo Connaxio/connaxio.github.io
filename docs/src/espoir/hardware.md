@@ -128,7 +128,7 @@ Care must be taken to leave enough spacing under the PCB to avoid accidental con
 
 ## Safety Considerations
 ### Electrocution Hazard
-The area around the main transformer and Ethernet jack contains parts that operate at a typical voltage of 57 V, with peak voltages of up to 150 V. In some situations, these voltages may cause injury or death. Avoid contact with the SMD components (top) or solder joints (bottom) during operation.
+The area around the main transformer and Ethernet jack contains parts that operate at a typical voltage of 57 V, with peak voltages above 135 V. In some situations, these voltages may cause injury or death. Avoid contact with the SMD components (top) or solder joints (bottom) during operation.
 
 ### Burn Hazard
 Under constant heavy load, the area and parts around the main transformer may reach over 100 <sup>o</sup>C and cause severe burns. Avoid contact with both the top and bottom of the PCB in that region when high load conditions are expected.
