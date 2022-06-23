@@ -145,6 +145,7 @@ An IP20 enclosure with proper ventilation is recommended to avoid accicental con
 </center>
 
 ## Additional Resources
+- [Espoir's schematics](https://docs.connaxio.com/doc/espoir_schematics_latest.pdf)
 - [Espoir's source on GitHub](https://github.com/Connaxio/espoir)
 - [Espoir's launch page at Crowd Supply](https://www.crowdsupply.com/connaxio/espoir)
 - [Espoir's OSHWA certification page](https://certification.oshwa.org/ca000009.html)
