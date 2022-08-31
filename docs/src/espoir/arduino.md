@@ -35,13 +35,13 @@ You can see if everything is alright by opening the `Tools` > `Serial Monitor` (
 
 1. If you see errors during compilation, you may have to follow the manual installation steps for your operating system. These instructions are located further down the [installation guide](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html#windows-manual-installation). However, instead of cloning Espressif's `arduino-esp32` repository, you will need to clone Connaxio's fork and `release-single-core` branch.
    
-   ```bash
-   ...
-   git clone --single-branch --branch release-single-core https://github.com/Connaxio/arduino-esp32.git esp32 && \
-   ...
-   ```
-
+```bash
+...
+git clone --single-branch --branch release-single-core https://github.com/Connaxio/arduino-esp32.git esp32 && \
+...
 ```
+
+
 2. If you can't upload your sketch, make sure you have selected the correct Port in the `Tools` menu. You may need to reboot your computer to update user permissions.
 
 
@@ -52,10 +52,10 @@ You can see if everything is alright by opening the `Tools` > `Serial Monitor` (
 2. In VS Code, from the PlatformIO home page, select `Platforms` > `Installed`. If `Espressif 32` is not present, go to `Platforms` > `Embedded` and use the search bar to find and install it.
 
 3. [Create a project](https://docs.platformio.org/en/latest/tutorials/espressif32/arduino_debugging_unit_testing.html#setting-up-the-project) and select `Connaxio's Espoir` as the project's board. In the project's `platformio.ini` file, set the following line:
-   
-   ```ini
-   platform_packages = framework-arduinoespressif32 @ https://github.com/Connaxio/arduino-esp32.git#release-single-core
-   ```
+
+```ini
+platform_packages = framework-arduinoespressif32 @ https://github.com/Connaxio/arduino-esp32.git#release-single-core
+```
 
 Your `platformio.ini` file should then look like this:
 
