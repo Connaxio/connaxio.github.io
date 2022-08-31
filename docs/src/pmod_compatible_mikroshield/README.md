@@ -4,10 +4,10 @@
 
 </center>
 
-
 # Pmod<sup>TM</sup> Compatible mikroShield
 
 ## Overview
+
 The Pmod<sup>TM</sup> Compatible mikroShield is a simple mikroBUS<sup>TM</sup> add-on board that links the Digilent Pmod<sup>TM</sup> Interface Specification to the mikroBUS<sup>TM</sup> standard. 
 
 The Pmod<sup>TM</sup> Compatible mikroShield is fully passive and allows for connecting 6-pins and 12-pins Pmod<sup>TM</sup> Compatible modules, as well as various wired sensors and breakout boards.
@@ -15,6 +15,7 @@ The Pmod<sup>TM</sup> Compatible mikroShield is fully passive and allows for con
 The Digilent Pmod<sup>TM</sup> Compatible connector's supply voltage can be switched between 3.3 V and 5 V using the header, and the I<sup>2</sup>C pull-up resistors can be disconnected as necessary.
 
 ## Dimensions and Top & Bottom Views
+
 <center>
 
 ![Pmod_Compatible_mikroShield_top_bottom](./pmod-compatible-mikroshield-top-bot-01.jpg)
@@ -55,9 +56,7 @@ The Pmod<sup>TM</sup> Compatible mikroShield conforms to the "S" size of the [mi
 
 For more details, refer to the [Digilent Pmod<sup>TM</sup> Interface Specification](https://digilent.com/reference/_media/reference/pmod/pmod-interface-specification-1_3_1.pdf).
 
-
-
-
 ## Additional Resources
+
 - [Pmod<sup>TM</sup> Compatible mikroShield's source on GitHub](https://github.com/Connaxio/pmod-compatible-mikroshield)
 - [Pmod<sup>TM</sup> reference and modules](https://digilent.com/reference/pmod/start)
