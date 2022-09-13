@@ -29,7 +29,7 @@ Espoir's mikroBUS<sup>TM</sup> socket provides incredible ease of use, with over
 ## Features & Specifications
 
 - ESP32-MINI-1 Processor
-   - Single or dual core 240 MHz
+   - Dual core 240 MHz
    - 520 KB SRAM
    - 4 MB flash
 - Power
@@ -136,20 +136,11 @@ Under constant heavy load, the area and parts around the main transformer may re
 
 An IP20 enclosure with proper ventilation is recommended to avoid accicental contact and overheating. Espoir's repository offers a 3D printable snap-on backplate that provides protection from accidental contact and good ventilation.
 
-## Certifications
-
-<center>
-
-| Directive | Applicable standards |
-|:--------- |:-------------------- |
-
-</center>
-
 ## Additional Resources
 
-- [Espoir's schematics](https://docs.connaxio.com/doc/espoir_schematics_latest.pdf)
+- [Espoir's schematics (PDF)](https://docs.connaxio.com/doc/espoir_schematics_latest.pdf)
 - [Espoir's source on GitHub](https://github.com/Connaxio/espoir)
 - [Espoir's launch page at Crowd Supply](https://www.crowdsupply.com/connaxio/espoir)
 - [Espoir's OSHWA certification page](https://certification.oshwa.org/ca000009.html)
-- [Datasheet: ESP32-MINI-1](https://www.espressif.com/sites/default/files/documentation/esp32-mini-1_datasheet_en.pdf)
-- [Datasheet: ESP32-U4WDH](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
+- [Datasheet: ESP32-MINI-1 module](https://www.espressif.com/sites/default/files/documentation/esp32-mini-1_datasheet_en.pdf)
+- [Datasheet: ESP32 MCU](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)

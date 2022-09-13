@@ -15,7 +15,8 @@ The .bin file can be downloaded at the following link:
 ## Flashing
 
 If it is the first time you flash MicroPython on Espoir, you should first erase the flash:
-```python
+
+```bash
 esptool.py --chip esp32 --port <PORT> erase_flash
 ```
 
@@ -52,7 +53,6 @@ You should see something similar appear:
 ```
 
 If instead you see only `'0.0.0.0'`, make sure you are connected to the LAN and re-run the last command.
-
 
 ## Additional resources
 

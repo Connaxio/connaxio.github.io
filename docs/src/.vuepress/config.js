@@ -89,10 +89,7 @@ module.exports = {
                 title: 'Hardware',
                 path: '/espoir/hardware'
               },
-              '/espoir/arduino',
-              '/espoir/micropython',
-              '/espoir/esphome',
-              '/espoir/tasmota'
+              '/espoir/software'
             ]
           },
           {
