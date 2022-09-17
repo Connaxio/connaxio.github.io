@@ -1,10 +1,16 @@
 # Software
 
-Espoir is compatible with _many_ software tools to accelerate development. This section outlines how to quickly get started with the most popular ones.
+Espoir is compatible with _many_ software tools to accelerate development. This section outlines how to quickly get started with the most popular (and officially supported) ones.
 
-## [Arduino](https://docs.espressif.com/projects/arduino-esp32/en/latest/getting_started.html)
+## [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html)
 
-To program Espoir with Arduino, simply follow the [official Arduino ESP32 documentation](https://docs.espressif.com/projects/arduino-esp32/en/latest/getting_started.html). Select `Connaxio's Espoir` as your board, either in ArduinoIDE or PlatformIO.
+ESP-IDF is Espressif's IoT Development Framework, the most barebones development framework for ESP32. It is the basic building block for all other frameworks, and features drivers for all peripherals. To get started, simply follow the [Getting Started guide](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html).
+
+At the time of writing, most frameworks are based on ESP-IDF 4.4, and ESP-IDF 5.0 is currently in beta release.
+
+## [Arduino-ESP32](https://docs.espressif.com/projects/arduino-esp32/en/latest/getting_started.html)
+
+To program Espoir with Arduino, simply follow the [official Arduino-ESP32 documentation](https://docs.espressif.com/projects/arduino-esp32/en/latest/getting_started.html). Select `Connaxio's Espoir` as your board, either in ArduinoIDE or PlatformIO.
 
 If you wish to quickly test Espoir, you can run the `ETH_LAN8720` example with the following modified line:
 
@@ -68,14 +74,5 @@ For Tasmota 12.1.1, the following `Custom parameters` must be added for Ethernet
 ```
 
 Additionally, the following pins must be configured:
-- Pin `32` : `MDC`
-- Pin `33` : `MDIO`
-
-
-## [ESPHome](https://esphome.io/)
-
-WIP
-
-
-
-
+- Pin `32` : `ETH_MDC`
+- Pin `33` : `ETH_MDIO`
