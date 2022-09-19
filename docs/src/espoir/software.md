@@ -52,27 +52,55 @@ lan.ifconfig() # Prints DHCP configuration.
 
 ## [Tasmota](https://tasmota.github.io/docs/)
 
-The preferred way to install Tasmota on Espoir is through [TasmoCompiler](https://github.com/benzino77/tasmocompiler) on [GitPod](https://gitpod.io/#https://github.com/benzino77/tasmocompiler). Select `ESP32`:`Generic` and check `Ethernet` and other desired functionalities.
+The preferred way to install Tasmota on Espoir is through [TasmoCompiler](https://github.com/benzino77/tasmocompiler) on [GitPod](https://gitpod.io/#https://github.com/benzino77/tasmocompiler).
 
-For Tasmota 12.1.1, the following `Custom parameters` must be added for Ethernet:
+The following guide outlines the main steps to get Espoir running with Tasmota 12.1.1. Refer to the [official documentation](https://tasmota.github.io/docs/) for help.
 
-```cpp
-#ifdef ETH_TYPE
-  #undef ETH_TYPE
-#endif
-#define ETH_TYPE        6	// ETH_PHY_KSZ8081
+1. Go to [TasmoCompiler on GitPod](https://gitpod.io/#https://github.com/benzino77/tasmocompiler) to compile Tasmota for Espoir. 
+    - Enter your preferred WiFi network parameters (or leave this empty to configure WiFi after installation).
+    - Select `ESP32`:`Generic` and check `Ethernet` and other desired functionalities.
+    - Enter the following `Custom parameters`:
 
-#ifdef ETH_ADDRESS
-  #undef ETH_ADDRESS
-#endif
-#define ETH_ADDRESS     0 
+    ```cpp
+    #ifdef ETH_TYPE
+      #undef ETH_TYPE
+    #endif
+    #define ETH_TYPE        6   // ETH_PHY_KSZ8081
 
-#ifdef ETH_CLKMODE
-  #undef ETH_CLKMODE
-#endif
-#define ETH_CLKMODE     0    // ETH_CLOCK_GPIO0_IN
+    #ifdef ETH_ADDRESS
+      #undef ETH_ADDRESS
+    #endif
+    #define ETH_ADDRESS     0   // Always 0 for Espoir
+
+    #ifdef ETH_CLKMODE
+      #undef ETH_CLKMODE
+    #endif
+    #define ETH_CLKMODE     0   // ETH_CLOCK_GPIO0_IN
+    ```
+
+    - After compilation is done, download one of the two `.BIN` files: 
+        - `FIRMWARE.FACTORY.BIN` if this is the first time Tasmota is installed on the device.
+        - `FIRMWARE.BIN` if this is an update.
+
+5. Flash Tasmota to your device using esptool (see [above](https://docs.connaxio.com/espoir/software.html#micropython)). Refer to [Tasmota's documentation](https://tasmota.github.io/docs/ESP32/#flashing) for more details.
+```bash
+esptool.py --chip esp32 --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dout --flash_size detect 0x0 tasmota32.factory.bin
 ```
 
-Additionally, the following pins must be configured:
-- Pin `32` : `ETH_MDC`
-- Pin `33` : `ETH_MDIO`
+6. Connect to your device's IP address in your web browser. You can find this address in your router's user interface, or with tools such as `nmap` for Linux or `Advanced IP Scanner` for Windows.
+    - If you did not previously enter any WiFi settings, you will need to connect to your device's temporary WiFi network to configure its connection to your home WiFi.
+
+7. Configure Espoir's pins. In your device's new Tasmota Web Interface, go to `Configuration` -> `Configure Other`, and in the `Template` box, enter the following configuration line, activate it, and save:
+```
+{"NAME":"Espoir","GPIO":[0,0,1,0,1,1,1,1,1,1,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,5568,5600,1,7968,1,1,1,1],"FLAG":0,"BASE":1}
+```
+
+8. (Optional) Deactivate WiFi to reduce power. Go back to the main menu, then go to `Consoles` -> `Console`, and type the command: `EthIpAddress`. You should see something similar to:
+```
+RESULT = {"EthIPAddress":"0.0.0.0 (192.168.1.105)"}
+```
+If both fields show `0.0.0.0`, you need to verify your Ethernet connection or configuration for problems. Otherwise, it is safe to disable WiFi with the command: `WiFi 0`. The web interface will now be available at the IP address displayed above.
+
+**That's it**, you are now ready to configure your application-specific settings through the other menus of the web interface.
+
+
