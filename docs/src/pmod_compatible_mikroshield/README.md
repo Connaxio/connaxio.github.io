@@ -58,5 +58,6 @@ For more details, refer to the [Digilent Pmod<sup>TM</sup> Interface Specificati
 
 ## Additional Resources
 
+- [Pmod<sup>TM</sup> Compatible mikroShield's schematics (PDF)](https://docs.connaxio.com/doc/pmod_compatible_mikroshield_schematics_latest.pdf)
 - [Pmod<sup>TM</sup> Compatible mikroShield's source on GitHub](https://github.com/Connaxio/pmod-compatible-mikroshield)
 - [Pmod<sup>TM</sup> reference and modules](https://digilent.com/reference/pmod/start)

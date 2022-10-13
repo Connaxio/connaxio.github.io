@@ -113,6 +113,7 @@ There are two options to remove the RC filters on the input-only signals.
 
 ## Additional Resources
 
+- [IO One mikroShield's schematics (PDF)](https://docs.connaxio.com/doc/io_one_mikroshield_schematics_latest.pdf)
 - [IO One mikroShield's source on GitHub](https://github.com/Connaxio/io-one-mikroshield)
 - [IO One mikroShield's OSHWA certification](https://certification.oshwa.org/ca000010.html)
 - [Pmod<sup>TM</sup> reference and modules](https://digilent.com/reference/pmod/start)
