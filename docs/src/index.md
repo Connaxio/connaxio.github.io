@@ -4,12 +4,8 @@
 
 </center>
 
-# Connaxio's official Wiki
+# Welcome to Connaxio's official Wiki
 
-This Wiki contains Connaxio's most up-to-date documentation and tutorials.
+Browse this Wiki to find the most up-to-date documentation, tutorials, sources, and references for Connaxio's projects.
 
-Some content is still missing and will be added soon<sup>TM</sup>.
-
-Have a look a [Espoir's hardware page](/espoir/hardware/) for all the details on Connaxio's first commercially available product!
-
-
+Look at [Espoir's hardware page](/espoir/hardware/) for all the details on Connaxio's first commercially available product, and find it for sale [on Crowd Supply](https://www.crowdsupply.com/connaxio/espoir)!
