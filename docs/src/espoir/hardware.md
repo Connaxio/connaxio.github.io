@@ -12,6 +12,14 @@ Espoir is a Power over Ethernet+ (PoE+ 802.3af/at) mikroBUS<sup>TM</sup> mainboa
 
 It reduces risk, cost, and time to market by taking care of the often more challenging aspects of designing power supply and high-speed circuits of a microcontroller board. Developers can focus on their application and get to testing and deployment quickly.
 
+At the bottom of this page, you will find links to schematics, source files, certifications, and more.
+
+<center>
+
+ ![Parts](./images/hardware/espoir_parts.png)
+  
+</center
+
 Espoir's mikroBUS<sup>TM</sup> socket provides incredible ease of use, with over 1,300 mikroBUS<sup>TM</sup> add-on boards available right away, including Connaxio's mikroShield and makroShield (coming soon<sup>TM</sup>) families.
 
 <center>
