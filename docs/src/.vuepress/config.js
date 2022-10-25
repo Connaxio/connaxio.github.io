@@ -100,6 +100,19 @@ module.exports = {
             title: 'Pmod Compatible mikroShield',
             path: '/pmod_compatible_mikroshield/'
           },
+          {
+            title: 'Guides',
+            path: '/guides/',
+            collapsable: true, // optional, defaults to true
+            sidebarDepth: 1,    // optional, defaults to 1
+            initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+            children: [
+              {
+                title: 'Espoir + Tasmota + Home Assistant',
+                path: '/guides/tasmota_hass/'
+              },
+            ]
+          },
     ]
       },
       '/fr/': {
