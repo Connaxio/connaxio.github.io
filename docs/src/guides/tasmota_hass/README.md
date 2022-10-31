@@ -1,6 +1,6 @@
 # Getting started with Tasmota and Home Assistant
 
-This tutorial shows how to install [Tasmota](https://tasmota.github.io/docs/) firmware on Espoir, then connect Espoir to a [Home Assistant](https://www.home-assistant.io/) installation via MQTT.
+This tutorial shows how to install [Tasmota](https://tasmota.github.io/docs/) firmware on Espoir, then connect Espoir to a [Home Assistant](https://www.home-assistant.io/) IoT dashboard installation via MQTT.
 
 This setup is adequate for **local, private networks** on a dedicated computer or mini-PC such as the Raspberry Pi. Setting up Home Assistant on a non-local device (such as a rented Virtual Private Server) is **much more** involved and requires extensive knowledge about docker containers and network security, and will not be covered here.
 
@@ -14,15 +14,15 @@ After you connected to your installation in your web browser (either with the UR
 
 ![Mosquitto Add-on page](./hass-mosquitto-broker.png)
 
-**3. Add the MQTT client to Home Assistant**
+**3. Add the MQTT and Tasmota integrations to Home Assistant**
 
 In your Home Assistant installation, go to `Settings` -> `Devices & Services`. If you chose the OS installation, you should be offered to complete the installation of the MQTT integration, which will be done automatically. 
 
-Else, click `ADD INTEGRATION` in the bottom right corner. Search for `mqtt` and install the MQTT client integration.
+Else, click `ADD INTEGRATION` in the bottom right corner. Search for `mqtt` and install the MQTT integration. Do the same thing with `Tasmota`.
 
-![Home Assistant with MQTT broker integration](./hass-mqtt-integration.png)
+![Home Assistant with MQTT broker integration](./hass-mqtt-tasmota-integrations.png)
 
-**4. Install Tasmota**
+**4. Install Tasmota on Espoir**
 
 Follow the [instructions](https://docs.connaxio.com/espoir/software.html#tasmota) to create, download, install, and perform the initial configuration of Tasmota on Espoir.
 
@@ -49,6 +49,8 @@ If you see this line, congratulations! You device is connected. Otherwise, if yo
 ```
 
 This means one of the parameters of your Tasmota MQTT configuration is wrong. Check your parameters. user/password, network cable, host / port (make sure it does not include "http://").
+
+You can find more information on connecting Tasmota with Home Assistant on [Tasmota's dedicated page](https://tasmota.github.io/docs/Home-Assistant/#tasmota-integration)
 
 **7. Create an automation**
 
@@ -89,5 +91,3 @@ You can even create alerts for your **Home Assistant smartphone App** to get not
 Obviously, a **lot** of stuff was not covered in this tutorial. Unfortunately, it is not possible to cover every functionality offered by projects like Tasmota and Home Assistant. It would also be pointless, since they already create their own very extensive documentation.
 
 Creating a custom IoT application can be very simple, but this setup can also become a lot more complex. You could run the Home Assistant Container installation on a Virtual Private Server with a reverse proxy, so that you can connect your devices to "mqtt.website.com" and log in to "hass.website.com". That would allow you to run an automation setup from anywhere, on a public or work network, or on-the-go for demonstrations. That involves setting up redirection for a few URLs, SSL encryption certificates, and running docker compose on top of what we've seen above. Sky's the limit!
-
-

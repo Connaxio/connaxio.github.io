@@ -111,6 +111,10 @@ module.exports = {
                 title: 'Espoir + Tasmota + Home Assistant',
                 path: '/guides/tasmota_hass/'
               },
+              {
+                title: 'IoT irrigation with Espoir',
+                path: '/guides/iot_irrigation_with_espoir/'
+              },
             ]
           },
     ]
