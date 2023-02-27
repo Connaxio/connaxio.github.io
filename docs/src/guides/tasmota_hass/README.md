@@ -27,6 +27,7 @@ Else, click `ADD INTEGRATION` in the bottom right corner. Search for `mqtt` and 
 Follow the [instructions](https://docs.connaxio.com/espoir/software.html#tasmota) to create, download, install, and perform the initial configuration of Tasmota on Espoir.
 
 **5. Configure Espoir and Tasmota to connect to the broker**
+Follow the [official guide](https://tasmota.github.io/docs/MQTT/#configure-mqtt-using-webui), or continue below:
 
 Go back to you Espoir / Tasmota Device, and navigate to `Configuration` -> `Configure MQTT`. Enter the host name or IP, leave the port to the default `1883`, and change the `Client` and `Topic` names. I like to keep them the same. The `User` and `Password` fields are the same as your Home Assistant user.
 
