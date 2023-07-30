@@ -2,6 +2,10 @@
 
 Espoir is compatible with _many_ software tools to accelerate development. This section outlines how to quickly get started with the most popular (and officially supported) ones.
 
+::: warning
+Some modules of Espoir Rev 1.1 have been reworked, with a red wire in place of the Ethernet PHY crystal. These modules, as well as Espoir Rev 1.2 and above, now operate in the `CONFIG_ETH_RMII_CLK_OUTPUT_GPIO0`  (also known as `ETH_CLOCK_GPIO0_OUT`) mode. Make sure you adapt the code examples below if your Espoir board corresponds to this description.
+:::
+
 ## [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html)
 
 ESP-IDF is Espressif's IoT Development Framework, the most barebones development framework for ESP32. It is the basic building block for all other frameworks, and features drivers for all peripherals. To get started, simply follow the [Getting Started guide](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html).
