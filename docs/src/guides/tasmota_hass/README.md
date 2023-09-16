@@ -4,17 +4,17 @@ This tutorial shows how to install [Tasmota](https://tasmota.github.io/docs/) fi
 
 This setup is adequate for **local, private networks** on a dedicated computer or mini-PC such as the Raspberry Pi. Setting up Home Assistant on a non-local device (such as a rented Virtual Private Server) is **much more** involved and requires extensive knowledge about docker containers and network security, and will not be covered here.
 
-**1. Setup Home Assistant**
+## 1. Setup Home Assistant
 
 If you don't already have one, [create a Home Assistant installation](https://www.home-assistant.io/installation/) on the computer or mini-PC of your choice. The preferred method is to use the `Home Assistant Operating System`, as it keeps itself updated and enables add-ons for easy configuration.
 
-**2. Add a MQTT broker**
+## 2. Add a MQTT broker
 
 After you connected to your installation in your web browser (either with the URL shown by your installation ("homeassistant.local:8123") or the computer's IP address ("192.168.1.xxx:8123")) and [went through the initial configuration steps](https://www.home-assistant.io/getting-started/onboarding) of Home Assistant, the next step is to add a MQTT broker, which is the server that relays messages between Home Assistant and your devices. Go to `Settings` (small gear symbol at the bottom left of the interface), then `Add-ons`. Click the `ADD-ON STORE` button at the bottom right, type `mosquitto` in the search bar and install the `Mosquitto broker` add-on. Finally, start the Add-on.
 
 ![Mosquitto Add-on page](./hass-mosquitto-broker.png)
 
-**3. Add the MQTT and Tasmota integrations to Home Assistant**
+## 3. Add the MQTT and Tasmota integrations to Home Assistant
 
 In your Home Assistant installation, go to `Settings` -> `Devices & Services`. If you chose the OS installation, you should be offered to complete the installation of the MQTT integration, which will be done automatically. 
 
@@ -22,11 +22,11 @@ Else, click `ADD INTEGRATION` in the bottom right corner. Search for `mqtt` and 
 
 ![Home Assistant with MQTT broker integration](./hass-mqtt-tasmota-integrations.png)
 
-**4. Install Tasmota on Espoir**
+## 4. Install Tasmota on Espoir
 
 Follow the [instructions](https://docs.connaxio.com/espoir/software.html#tasmota) to create, download, install, and perform the initial configuration of Tasmota on Espoir.
 
-**5. Configure Espoir and Tasmota to connect to the broker**
+## 5. Configure Espoir and Tasmota to connect to the broker
 Follow the [official guide](https://tasmota.github.io/docs/MQTT/#configure-mqtt-using-webui), or continue below:
 
 Go back to you Espoir / Tasmota Device, and navigate to `Configuration` -> `Configure MQTT`. Enter the host name or IP, leave the port to the default `1883`, and change the `Client` and `Topic` names. I like to keep them the same. The `User` and `Password` fields are the same as your Home Assistant user.
@@ -53,7 +53,7 @@ This means one of the parameters of your Tasmota MQTT configuration is wrong. Ch
 
 You can find more information on connecting Tasmota with Home Assistant on [Tasmota's dedicated page](https://tasmota.github.io/docs/Home-Assistant/#tasmota-integration)
 
-**7. Create an automation**
+## 6. Create an automation
 
 Well now, things can talk to each other, that's great. If you wish to, you can play around with the Tasmota configuration to change sensors' refresh interval, create startup scripts, setup pins for various sensors, or [prepare Tasmota for servo-motor-compatible PWM](https://tasmota.github.io/docs/Peripherals/#pwm). 
 

@@ -79,7 +79,7 @@ module.exports = {
         ],
         sidebar: [
           {
-            title: 'Espoir',   // required
+            title: 'Espoir: PoE devboard',   // required
             path: '/espoir/hardware',      // optional, link of the title, which should be an absolute path and must exist
             collapsable: true, // optional, defaults to true
             sidebarDepth: 1,    // optional, defaults to 1
@@ -89,7 +89,18 @@ module.exports = {
                 title: 'Hardware',
                 path: '/espoir/hardware'
               },
-              '/espoir/software'
+              {
+                title: 'Software',
+                path: '/espoir/software'
+              },
+              {
+                title: 'Guide: Tasmota & Home Assistant',
+                path: '/guides/tasmota_hass/'
+              },
+              {
+                title: 'Guide: Irrigation with Espoir',
+                path: '/guides/iot_irrigation_with_espoir/'
+              },
             ]
           },
           {
@@ -99,23 +110,6 @@ module.exports = {
           {
             title: 'Pmod Compatible mikroShield',
             path: '/pmod_compatible_mikroshield/'
-          },
-          {
-            title: 'Guides',
-            path: '/guides/',
-            collapsable: true, // optional, defaults to true
-            sidebarDepth: 1,    // optional, defaults to 1
-            initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
-            children: [
-              {
-                title: 'Espoir + Tasmota + Home Assistant',
-                path: '/guides/tasmota_hass/'
-              },
-              {
-                title: 'IoT irrigation with Espoir',
-                path: '/guides/iot_irrigation_with_espoir/'
-              },
-            ]
           },
     ]
       },
