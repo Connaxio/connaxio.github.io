@@ -24,11 +24,9 @@ ETH.begin(0, -1, 32, 33, ETH_PHY_KSZ8081, ETH_CLOCK_GPIO0_IN);
 
 ## [MicroPython](https://micropython.org/)
 
-MicroPython for Espoir is currently supported by Connaxio ([source](https://github.com/Connaxio/micropython/tree/feature/espoir)).
+Espoir is compatible with MicroPython using the [Generic ESP32 board](https://micropython.org/download/ESP32_GENERIC/): 
 
-You can download the compiled binary file here: [micropython-espoir-v1.19.1.bin](https://docs.connaxio.com/micropython/micropython-espoir-v1.19.1.bin).
-
-Download and extract the latest esptool release from the [official repository on GitHub](https://github.com/espressif/esptool/releases) for the next steps.
+Download and extract the latest esptool release from the [official repository on GitHub](https://github.com/espressif/esptool/releases) before proceeding to the next steps.
 
 If flashing for the first time, you should first erase Espoir's flash:
 
