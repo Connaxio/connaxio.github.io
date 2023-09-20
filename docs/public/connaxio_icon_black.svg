@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="254.27597mm"
+   height="254.25464mm"
+   viewBox="0 0 254.27598 254.25464"
+   version="1.1"
+   id="svg983"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="connaxio_icon_black.svg"
+   inkscape:export-filename="/media/veracrypt1/NextCloud/malalonde_connaxio/Connaxio/Entrepreneuriat/Marketing/src/connaxio_icon_black_circle_sqrt2_white_background.png"
+   inkscape:export-xdpi="51.082222"
+   inkscape:export-ydpi="51.082222">
+  <defs
+     id="defs977" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="987.45132"
+     inkscape:cy="27.525525"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="5120"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="false"
+     inkscape:pagecheckerboard="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata980">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(343.39495,286.67855)">
+    <path
+       inkscape:connector-curvature="0"
+       d="m -335.73387,-202.60301 c -19.48452,54.07261 -0.21413,114.486057 46.97517,147.305341 47.18929,32.819283 110.5327,29.862211 154.4454,-7.221045 43.913031,-37.083526 57.443141,-99.044546 32.98562,-151.062346 l -62.79836,90.2947 c -20.02255,28.796292 -59.59895,35.906819 -88.39288,15.88113 -28.79394,-20.02569 -35.8998,-59.60292 -15.87034,-88.3945 l 62.79859,-90.29452 c -57.2784,-4.82782 -110.65854,29.41824 -130.1432,83.49124 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-opacity:0"
+       id="path94"
+       sodipodi:nodetypes="sssccsccs" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m -123.94671,-236.66477 c 10.00667,-14.39568 6.45121,-34.17734 -7.94199,-44.18756 -14.3932,-10.01023 -34.17576,-6.45975 -44.18969,7.93101 l -66.24523,95.24995 c -10.01622,14.39579 -6.46377,34.18571 7.93391,44.19905 14.39767,10.01333 34.18693,6.45717 44.19789,-7.9424 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-opacity:0"
+       id="path106"
+       sodipodi:nodetypes="csccscc" />
+    <ellipse
+       style="opacity:0;fill:#222222;fill-opacity:1;stroke:#000000;stroke-width:0.02645833;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       id="path814"
+       cx="-191.39388"
+       cy="-173.45302"
+       rx="68.035713"
+       ry="59.342262" />
+    <path
+       style="opacity:0;fill:#222222;fill-opacity:1;stroke:#000000;stroke-width:0.02645833;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path818"
+       sodipodi:type="arc"
+       sodipodi:cx="-542.53375"
+       sodipodi:cy="95.288055"
+       sodipodi:rx="35.907738"
+       sodipodi:ry="70.303574"
+       sodipodi:start="0"
+       sodipodi:end="6.2776786"
+       d="m -506.62601,95.288055 a 35.907738,70.303574 0 0 1 -35.85831,70.303505 35.907738,70.303574 0 0 1 -35.95703,-70.109934 35.907738,70.303574 0 0 1 35.7593,-70.496545 35.907738,70.303574 0 0 1 36.05549,69.915835 l -35.90719,0.387139 z" />
+  </g>
+</svg>
