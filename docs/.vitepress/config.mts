@@ -10,10 +10,13 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     
-    logo: '/connaxio_logo_black.svg',
+    logo: {
+      light: '/connaxio_logo_black.svg',
+      dark: '/connaxio_logo_white.svg'
+      },
     siteTitle: false,
     
-    head: [['link', { rel: 'icon', href: '/connaxio_icon_black_in_white_squircle_512x512.ico' }]],
+    head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
     
     search: {
       provider: 'local'

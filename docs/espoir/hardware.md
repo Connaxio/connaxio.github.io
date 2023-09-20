@@ -24,13 +24,13 @@ Espoir's mikroBUS<sup>TM</sup> socket provides incredible ease of use, with over
 
 <center>
 
-| Example applications   | Compatible IDEs  | Compatible frameworks       |
-|:---------------------- |:---------------- |:--------------------------- |
-| Smart farming          | Eclipse IDE      | Espressif's ESP-IDF         |
-| Smart lighting         | PlatformIO IDE   | Arduino                     |
-| Access control         | Arduino IDE      | MicroPython                 |
-| Assembly line tracking | PyCharm          | ESPHome (soon<sup>TM</sup>) |
-| Home automation        | (and many more!) | Tasmota (soon<sup>TM</sup>) |
+| Example applications   | Compatible IDEs  | Compatible frameworks |
+|:---------------------- |:---------------- |:--------------------- |
+| Smart farming          | Eclipse IDE      | Espressif's ESP-IDF   |
+| Smart lighting         | PlatformIO IDE   | Arduino               |
+| Access control         | Arduino IDE      | MicroPython           |
+| Assembly line tracking | PyCharm          | ESPHome               |
+| Home automation        | (and many more!) | Tasmota               |
 
 </center>
 
