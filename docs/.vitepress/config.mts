@@ -44,8 +44,10 @@ export default defineConfig({
                 },
                 { text: 'IO One mikroShield', link: '/io_one_mikroshield/' },
                 { text: 'Pmod<sup>TM</sup> Compatible mikroShield', link: '/pmod_compatible_mikroshield/' },
-              ],
-           }
+              ]
+              
+           },
+           { text: 'Self-hosting', link: '/self_hosting.md' },
         ],
 
     socialLinks: [
