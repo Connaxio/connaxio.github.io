@@ -38,14 +38,19 @@ export default defineConfig({
                   items: [
                     { text: 'Hardware', link: '/espoir/hardware.md' },
                     { text: 'Firmware', link: '/espoir/firmware.md' },
-                    { text: 'Guide: Tasmota & Home Assistant', link: '/guides/tasmota_hass/' },
-                    { text: 'Guide: Irrigation with Espoir', link: '/guides/iot_irrigation_with_espoir/' },
+                    { text: 'Home Assistant', link: '/guides/tasmota_hass/' },
+                    { text: 'Irrigation controller', link: '/guides/iot_irrigation_with_espoir/' },
                   ] 
                 },
                 { text: 'IO One mikroShield', link: '/io_one_mikroshield/' },
                 { text: 'Pmod<sup>TM</sup> Compatible mikroShield', link: '/pmod_compatible_mikroshield/' },
               ]
-              
+           },
+           {
+            text: 'Projects',
+              items: [
+                { text: 'CO2 sensor', link: '/projects/co2_sensor/' },
+              ]
            },
            { text: 'Self-hosting', link: '/self_hosting.md' },
         ],

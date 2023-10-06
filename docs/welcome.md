@@ -22,4 +22,4 @@ Need help with your project? I enjoy projects that involve solving a specific pr
 - Run a small PCB assembly operation;
 - Build devices and furniture with 3D printers and wood.
 
- Contact me at consulting@connaxio.com.
+ Contact me at hello@connaxio.com.
