@@ -7,7 +7,7 @@ Once the hardware (real or virtual) is chosen, the Operating System (OS) is what
 I run [Proxmox Virtual Environment](https://www.proxmox.com/en/proxmox-virtual-environment/overview), which is debian-based and provides a neat web interface to manage multiple Virtual Machines (VM) or containers on a single computer.
 
 ## Running services
-I use a Debian container (a form of optimized VM) to run services with [docker compose](https://docs.docker.com/compose/), which allows me to use simple configuration files to create and run independent services in separate environments. This eliminates compatibility issues, if for example two services require different versions of the same dependency. It also means I never have to care about satisfying dependencies; docker packages do that for me.
+I use a Debian container (a form of optimized VM) to run services with [docker compose](https://docs.docker.com/compose/), which allows me to use simple configuration files to create and run independent services in separate environments. This eliminates compatibility issues, if for example two services require different versions of the same dependency, or want to use the same port to listen for requests. It also means I never have to care about satisfying dependencies; docker packages do that for me.
 
 ### Nginx Proxy Manager
 [Nginx Proxy Manager](https://nginxproxymanager.com/) is a simple web interface that allows me to manage a reverse proxy. That means I can have multiple URLs pointing to the same IP address and port, and the reverse proxy then redirects the incoming connections to the right service depending on the requested URL. It also manages SSL certificates for me to ensure secure, encrypted connections. For example, I can access nextcloud.connaxio.com and jellyfin.connaxio.com instead of 23.44.123.3:11234 and 23.44.123.3:8090
@@ -22,7 +22,7 @@ I use a Debian container (a form of optimized VM) to run services with [docker c
 [Portainer](https://www.portainer.io/) is a docker container management interface. I run it as a [docker container](https://docs.portainer.io/advanced/db-encryption#new-installations-edit-the-compose-file), which I find a bit funny. It gives me a quick overview of that services (containers) are running. This is also kept behind the VPN.
 
 ### Homepage
-[Homepage](https://gethomepage.dev) provides a neat little dashboard for the server. It gives me a way to quickly look at the state of the server and its services. My own homepage is accessible at [homepage.connaxio.com](https://homepage.connaxio.com/).
+[Homepage](https://gethomepage.dev) provides a neat little dashboard for the server. It gives me a way to quickly look at the state of the server and its services.
 
 ### Nextcloud
 [Nextcloud AIO](https://nextcloud.com) is an office and productivity suite that replaces Microsoft 365. File storage and synchronisation, web document editing with Collabora / Libre Office, and video conference and calls are included. There are also cool plugins for just about anything, from CRM to drawing diagrams. It can also act as a mail client, calendar, contact book, notepad and tasks dashboard. Nextcloud is possibly the most used self-hosted service.
@@ -36,12 +36,11 @@ I use a Debian container (a form of optimized VM) to run services with [docker c
 ### Calibre 
 [Calibre](https://calibre-ebook.com/) is an unparalleled eBook library management tool, and the [docker container](https://github.com/linuxserver/docker-calibre) provides a web interface that I can access from another computer. It can act as a middleman between [Readarr](https://wiki.servarr.com/en/readarr) and Jellyfin. Calibre helps me manage my eBooks' metadata efficiently, and makes my eBooks available in a uniform way. It is definitely not meant for browsing and reading books, though; that's what Jellyfin is for.
 
-### Vaultwarden
-An alternative to Bitwarden, [Vaultwarden](https://github.com/dani-garcia/vaultwarden) is an unofficial, lightweight Bitwarden server implementation. With this service, you no longer need to trust or pay Bitwarden to host your password vault.
-
+### Adguard Home
+[Adguard Home](https://adguard.com/en/adguard-home/overview.html) is a DNS filter. It blocks ads, trackers, phishing, and selected websites and content, if you want it to. A DNS filter is the modern version of firewalls.
 
 ### Others
-Other services all follow the same methodology: find a docker compose example file, adjust it a little bit, add a URL to you DNS and Nginx Proxy Manager settings, and start the service. Using Docker means never having to deal with environment conflicts, so you can run as many services as the server can handle, which cna be quite a lot!
+Other services all follow the same methodology: find a docker compose example file, adjust it a little bit, add a URL to you DNS and Nginx Proxy Manager settings, and start the service. Using Docker means never having to deal with environment conflicts, so you can run as many services as the server can handle, which can be quite a lot!
 
 
 
