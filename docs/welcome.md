@@ -8,18 +8,18 @@
 
 Hi! I'm Marc, I hold a bachelor's degree in Electrical Engineering, and Connaxio is my consulting, electronics, software and automation business. 
 
-I launched [Espoir](./espoir/hardware.md), the open source, PoE+, ESP32-based devboard with a mikroBUS<sup>TM</sup> socket, [on CrowdSupply](https://www.crowdsupply.com/connaxio/espoir) in Fall 2022, along with a few other mikroBUS<sup>TM</sup>-compatible boards. The boards can also be purchased [at Mouser](https://www.mouser.com/manufacturer/connaxio/), their development files are available [on GitHub](https://github.com/Connaxio), and their full documentation can be accessed through the left-side menu on this website.
+I launched [Espoir](./espoir/hardware.md), the open source, PoE+, ESP32-based devboard with a mikroBUS<sup>TM</sup> socket, [on CrowdSupply](https://www.crowdsupply.com/connaxio/espoir) in Fall 2022. Their development files are available [on GitHub](https://github.com/Connaxio), and their full documentation can be accessed through the left-side menu on this website.
+
 
 <br/><br/>
-Need help with your project? I enjoy projects that involve solving a specific problem with a multidisciplinary / systems engineering approach. Some of the things I have done include:
+I specialize in solutions for small businesses. Areas I can help with include:
 
-- Design and build a multicopter drone from the ground up, including frame design, propulsion system, electrical systems, photography and mapping system;
-- Design and build a quantum magnetic field sensor for a CubeSat;
-- Design and build a greenhouse climate control system;
-- Setup and run a web server with multiple services, including file storage and synchronisation, email server, VPN, media streaming;
-- Program and operate a real-time image and video capture, streaming, display, and feature detection application;
-- Automate appliances inside a house (well, an appartment really);
-- Run a small PCB assembly operation;
-- Build devices and furniture with 3D printers and wood.
+- Climate control: Check out [Jordan's mushroom farm](https://www.westcoastfungi.farm/) in Lion's Bay, created with Connaxio's [CO<sub>2</sub> sensor](https://www.connaxio.com/projects/co2_sensor/);
+- Process control: Hardware and software for small-scale process automation;
+- Smart homes and other "smart" and "Internet of things" devices and appliances automation and configuration;
+- Software automation: transfer data from one program or online service to another, using tools like [Zapier](https://zapier.com/) or more complex custom scripts;
+- Website and other web services hosting;
+- Local network infrastructure and administration;
+- Drones: pretty much anything to do with them.
 
  Contact me at hello@connaxio.com.
