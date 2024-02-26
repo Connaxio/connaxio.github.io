@@ -17,8 +17,8 @@ I specialize in solutions for small businesses. Areas I can help with include:
 - Climate control: Check out [Jordan's mushroom farm](https://www.westcoastfungi.farm/) in Lion's Bay, created with Connaxio's [CO<sub>2</sub> sensor](https://www.connaxio.com/projects/co2_sensor/);
 - Process control: Hardware and software for small-scale process automation;
 - Smart homes and other "smart" and "Internet of things" devices and appliances automation and configuration;
-- Software automation: transfer data from one program or online service to another, using tools like [Zapier](https://zapier.com/) or more complex custom scripts;
-- Website and other web services hosting;
+- Back-end development / software automation: manage, backup, sync, and share data through scripts, REST APIs and visual tools like [Zapier](https://zapier.com/);
+- Web services hosting;
 - Local network infrastructure and administration;
 - Drones: pretty much anything to do with them.
 
