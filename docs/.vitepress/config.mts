@@ -51,8 +51,7 @@ export default defineConfig({
               items: [
                 { text: 'CO2 sensor', link: '/projects/co2_sensor/' },
               ]
-           },
-           { text: 'Self-hosting', link: '/self_hosting.md' },
+           }
         ],
 
     socialLinks: [
